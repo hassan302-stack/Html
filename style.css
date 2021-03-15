@@ -1,110 +1,128 @@
-
-
-.img{
-    color: white;
-    background-color: aqua;
-    background-image: url(pic1.jpg); 
-    background-repeat: no-repeat; 
-    background-size: 100% 100%;
-    vertical-align: middle;
-    position: relative;
-    height: 100%;
-    left: 0;
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar a{
-    text-decoration: none;
-    color: white;
-    margin-top: 70px;
-    padding: 12px 48px;
-    
+h1 {
+  font-size: 55px;
 }
-.navbar a:hover, .active {
-    color:black;
-    background-color:royalblue;
-    border-radius: 30px;
-   
-}
-.navbar{
-    background-color:black;
-    color: crimson;
-    list-style: none;
-    height: 70px;
-    border-radius: 80px;
-    line-height: 30px;
-}
-.navbar li{
-    float: left;
-    margin-top: 21px;
-    border-right: 2px solid white;
-}
-.reg{
-    
-    height: 420px;
-    background-color: royalblue;
-    width: 779px;
-    margin-left: 254px;
-    border-radius: 30px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;
-   
-}
- input{
-    padding: 5px 0px;
-    width: 450px;
-    text-align: center;
-    margin-top: 5px; 
-    border-radius: 30px;
-    box-shadow: 5.6rem;
-    color: black;
-    border-style: none;
-    outline: none;
-}
-#check-box{
-    width: 30px;
-}
-.fotter{
-    text-align: center;
-    height:300px;
-    background-color: black;
-    position: relative;
-    left:0;
-    right:0;
-    font-weight: bold;
-    font-size: large;
-    margin: 0%;
-    padding: 0%;
-}
-input:hover{
-    background-color:darkblue;
-}
-.div-left{
-    height: 322px;
-    
-    width: 242px;
-    margin-left: 249px;
-    float: left;
-    
-}
-.div-right{
-    height: 169px;
-    width: 242px;
-    margin-left: 249px;
-    float: left;
-}
-.div-left a:hover,.div-right a:hover{
-    border-bottom: 2px solid royalblue;
-    
-}
-.div-left ul li, .div-right ul li{
-    text-decoration: none;
-    list-style: none;
-    padding: 4.5;
+.img {
+  color: white;
+  background-color: aqua;
+  background: linear-gradient(135deg, blue, gray);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-top: 70px;
+  padding: 12px 48px;
+}
 
-.div-left a,.div-right a{
-    text-decoration: none;
+.navbar a:hover,
+.active {
+  color: white;
+  background-color: royalblue;
+  border-radius: 30px;
+}
+
+.navbar {
+  background-color: black;
+  color: crimson;
+  list-style: none;
+  height: 70px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details li {
+  list-style-type: none;
+}
+.details {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+input {
+  height: 35px;
+}
+.navbar li {
+  float: left;
+  border-right: 2px solid white;
+  color: black;
+}
+
+.reg {
+  margin-left: 25%;
+  background-color: royalblue;
+  width: 50%;
+  border-radius: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+input {
+  padding: 5px 0px;
+  width: 450px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 30px;
+  box-shadow: 5.6rem;
+  color: black;
+  border-style: none;
+  outline: none;
+}
+::placeholder {
+  color: black;
+  font-size: 12px;
+}
+#check-box {
+  width: 30px;
+}
+
+.fotter {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  height: 300px;
+  background-color: rgba(53, 52, 52, 0.644);
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.leftRightDivs {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+input:hover {
+  background-color: darkblue;
+}
+
+.div-left a:hover,
+.div-right a:hover input {
+  border-bottom: 2px solid royalblue;
+  color: white;
+}
+
+.div-left ul li,
+.div-right ul li {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.div-left a,
+.div-right a {
+  text-decoration: none;
 }
